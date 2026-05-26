@@ -1,0 +1,18 @@
+{
+    "name": "stmcs-robotics",
+    "description": "Build stmcs-robotics.org",
+
+    "scripts": {
+        "build": "node build.js"
+    },
+
+    "dependencies": {
+        "photoswipe": "^5.0.0"
+    },
+
+    "devDependencies": {
+        "wrangler": "^4.0.0"
+    },
+
+    "private": true
+}
