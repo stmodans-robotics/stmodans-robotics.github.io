@@ -8,6 +8,8 @@ const destDir = path.resolve(__dirname, 'dist');
 function copyDir(src, dest) {
     fs.mkdirSync(dest, { recursive: true });
 
+    //// check for empty folder
+
     // Read all entries in the source directory
     for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
         const srcPath = path.join(src, entry.name);
